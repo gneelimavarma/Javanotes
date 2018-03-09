@@ -11,8 +11,20 @@
  - Binary class has the extension .class which is in the form of bytecode(bytecode is binary code which has instructions for JVM). Computer doesnt not yet understand the binary file so java uses JVM(Java virtual Machine) which comes along with JRE.
  - A virtual machine is used instead of the system directly because there are so many systems each with so many configurations. So in order maintain unique output no matter what kind of a machine JVM is used. JVM converts .class file into binary format which can be run directly on the computer.
 
-## Data Types
+# Data Types
 - Primitive data types such as int,float,long or char are denoted in small letters. Other data types which are classes like String use camel case representation.
 - Data declaration and initialisation look like this 
                String text = "hello";
                int myInt = 8;
+
+## String
+- To concatenate string use '+'
+   ```
+     String greeting = "Hello" + name
+   ```
+- Similarly a sys out statement looks like
+
+      
+        System.out.println("Hey "+name)
+        System.out.println("To concatenate"+number+"strings")
+      
